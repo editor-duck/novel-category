@@ -1,0 +1,150 @@
+body {
+    max-width: 1080px;
+    margin: auto;
+    font-size: 1rem;
+    padding: 0px 20px;
+  }
+  
+  
+  a {
+    text-decoration: none;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 3rem;
+  }
+  /*메뉴*/
+  .menubar {
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    box-sizing: border-box;
+    height: 50px;
+    text-align: right;
+  }
+
+  .dropbtn {
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    font-size: initial;
+    text-align: center;
+    height: 100%;
+    min-width: 100px;
+  }
+
+  #left {
+    float: left;
+    text-align: left;
+  }
+  /*메뉴*/
+
+  /*드롭다운*/
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+   
+  .dropdown:hover .dropbtn {
+    background-color: #b6b6b6;
+  }
+  /*드롭다운*/
+  
+  /*첫번째 컨텐츠*/
+  .content1 {
+    height: 300px;
+    background-color: black;
+    /*background-color: #4141ff;*/
+    text-align: center;
+    color: white;
+  }
+
+  .firstbanner {
+    position: relative;
+    top: 35%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .firstbanner > table {
+    min-width: 150px;
+    margin: 5px 10px;
+  }
+
+  th {
+    background-color: gray;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px 30px;
+  }
+
+  #bookjukin {
+    font: bold;
+    color: white;
+    font-size: 2rem;
+    top: 10%;
+    position: relative;
+  }
+
+  #subtitle1 {
+    position: relative;
+    top: 20px;
+  }
+  /*첫번째 컨텐츠*/
+
+  /*두번째 컨텐츠*/
+  .content2 {
+    height: 300px;
+    background-color: rgb(180, 0, 0);
+    /*background-color: #4141ff;*/
+    text-align: center;
+    color: white;
+  }
+  /*두번째 컨텐츠*/
+
+
+
+  /*세번째 컨텐츠*/
+  .content3 {
+    height: 300px;
+    background-color: rgb(0, 180, 0);
+    /*background-color: #4141ff;*/
+    text-align: center;
+    color: white;
+  }
+  /*세번째 컨텐츠*/
+
+  /*네번째 컨텐츠*/
+  .content4 {
+    height: 300px;
+    background-color: rgb(0, 0, 180);
+    /*background-color: #4141ff;*/
+    text-align: center;
+    color: white;
+  }
